@@ -1,0 +1,89 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="stores.css">
+        <link rel="stylesheet" href="testorg.css">
+        <title>Stores</title>
+        <link rel="icon" href="logo.png" type="image/x-icon">
+    </head>
+    <body>
+        <ul class="list_head" style="position: relative;">
+            <a href="index.html"> Home </a>
+            <a href="designer.html"> Designer </a>
+            <a href="Styles.html"> Styles </a>
+            <a href="stores.html"> Stores </a>
+            <a href="topbrands.html"> Top-Brands </a>
+            <a href="contacts.html"> Contact </a>
+            <a href="RealAboutUs.html"> About-us </a>
+
+        </ul><br>
+        <h3 class="headingMap">Shopes on Google Map</h3>
+        <div id="map"></div>
+
+        <hr>
+        <div class="outercointnerStores">
+            <img class="storeImg" alt="storeImg" src="store1.jpg">
+            <h1 class="storeImgHead">MalharShree Collection</h1>
+            <p class="storeImgPara">The Designer shop MalharShree is founded by Mr. Danish Mahlar. The Shop containes exclusive collection and wide
+                range of men's  gromming products.
+            </p>
+            <h3>Address-</h3>
+            <p class="addressStore">17,pratap nagar,Mumbai</p>
+
+        </div>
+        <div class="outercointnerStores">
+            <img class="storeImg" alt="storeImg" src="store2.jpg">
+            <h1 class="storeImgHead">Sui Dhaga </h1>
+            <p class="storeImgPara">Shop. Home / Shop. category-banner. Lorem Ipsum is sim
+                ply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard 
+            </p>
+            <h3>Address-</h3>
+            <p class="addressStore">990,khusi villa,Goa</p>
+
+        </div>
+        <div class="outercointnerStores">
+            <img class="storeImg" alt="storeImg" src="store3.jpg">
+            <h1 class="storeImgHead">Range OurSelf</h1>
+            <p class="storeImgPara">Shop. Home / Shop. category-banner. Lorem Ipsum is simply dummy text of the
+                 printing and typesetting industry. Lorem Ipsum has been the industry's standard 
+            </p>
+            <h3>Address-</h3>
+            <p class="addressStore">11,main Road,Ranchi</p>
+
+        </div>
+        <div class="outercointnerStores">
+            <img class="storeImg" alt="storeImg" src="store4.jpg">
+            <h1 class="storeImgHead">Emilio Pucci</h1>
+            <p class="storeImgPara">Shop. Home / Shop. category-banner. Lorem Ipsum is simply dummy text of the printing and types
+                etting industry. Lorem Ipsum has been the industry's standard 
+            </p>
+            <h3>Address-</h3>
+            <p class="addressStore">07,chirag squre,Nry</p>
+
+        </div>
+        
+        <script>
+            function initMap()
+            {
+                var uluru = {lat: -25.344, lng: 131.036};
+                var dd = {lat: -25.344, lng: 130.036};
+                var dd1 = {lat: -25.344, lng: 132.036};
+                var dd2 = {lat: -26.344, lng: 99.036};
+                var dd3 = {lat: -25.344, lng: 129.036};
+                var dd4 = {lat: -25.44, lng: 130.036};
+                var map = new google.maps.Map(
+                document.getElementById('map'), {zoom: 4, center: uluru}, {zoom: 4, center: dd});
+                var marker = new google.maps.Marker({position: uluru, map: map});
+                var marker = new google.maps.Marker({position: dd, map: map});
+                var marker = new google.maps.Marker({position: dd1, map: map});
+                var marker = new google.maps.Marker({position: dd2, map: map});
+                var marker = new google.maps.Marker({position: dd3, map: map});
+                var marker = new google.maps.Marker({position: dd4, map: map});
+            }
+
+        </script>
+        <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBA_e9eu_vD69P_khX6orYrx4IFYziZRBo&callback=initMap">        
+    </script>
+    
+    </body>
+</html>

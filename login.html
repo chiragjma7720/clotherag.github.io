@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <link href="login.css" rel="stylesheet">
+        <link rel="stylesheet" href="testorg.css">
+    </head>
+    <body>
+        <ul class="list_head">
+            <a href="index.html"> Home </a>
+            <a href="designer.html"> Designer </a>
+            <a href="Styles.html"> Styles </a>
+            <a href="stores.html"> Stores </a>
+            <a href="topbrands.html"> Top-Brands </a>
+            <a href="contacts.html"> Contact </a>
+            <a href="RealAboutUs.html"> About-us </a>
+
+        </ul>
+        <br>
+        <div class="student_login_head">Customer Login</div><br>
+        <div class="form_outer_cointaner">
+            <form>
+                <br><br>
+                <span>UserName </span><br><input class="inputlogin" type="text" name="uname" placeholder="User Name" required><br><br><br>
+                <span>PassWord </span><br><input class="inputlogin" type="text" name="password" placeholder="Password" required><br><br><br>
+                <a id="astudent" href="signup.html">Sign Up</a><input id="loginStudentButton" type="submit" place="LogIn"><br><br><br>
+                <br><br> 
+
+            </form>
+            <button id="ForgotPassword" onclick="passRecover()">Forgot Password!</button>
+
+        </div>
+        <script>
+            function passRecover()
+            {
+                var x=document.getElementById("ForgotPassword");
+                window.alert("your password is Stratig from \"s\" and end with \"9\"");
+            }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,181 @@
+.productheadcontainer
+{
+    width: 100%;
+    height: 5%;
+    text-align: center;
+}
+.producthead
+{
+    color: rgb(8, 8, 112);
+    font-family: cursive;
+    box-shadow: darkblue;
+    font-size: 40px;
+
+}
+.designeroutercontainer
+{
+    width: 100%;
+    height: 45%;
+    background-color: rgb(255, 255, 255);
+}
+.designerinnercontainer
+{
+    width: 20%;
+    height: 80%;
+    display: inline-block;
+    text-align: center;
+    margin-left: 2%;
+    border: rgb(12, 19, 12) 3px solid;
+    margin: 2%;
+    text-align: center;
+    position: relative;
+}
+.designerimage
+{
+     height: 100%;
+     width: 100%;
+     opacity: 1;
+     transition: .5s ease;
+     backface-visibility: hidden;
+}
+.designertext
+{
+    
+    text-align: center;
+    padding: 15px 40px;
+    background-color: rgb(28, 49, 236);
+    color: white;
+    font-size: 24px;
+    
+}
+.disignermiddel
+{
+    
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  box-shadow: 10px 10px 5px #aaaaaa;
+  cursor: pointer;
+  
+
+}
+.designerinnercontainer:hover .designerimage
+{
+    opacity: .3;
+}
+.designerinnercontainer:hover .disignermiddel
+{
+    opacity: 1;
+}
+.designerinnercontainer:hover
+{
+    border-color: white;
+}
+.disignermiddel:active
+{
+    background-color:  rgb(126, 126, 165);
+}
+.designermainimgouter
+{
+    width: 100%;
+    height: 60%;
+    background-image: url("designermainimg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+
+}
+.designermainimginner
+{
+    color: wheat;
+    padding: 2% 10%;
+   
+
+}
+
+.designermainimginner h1
+{
+      color: whitesmoke;
+}
+.textmainset1
+{
+    color: rgb(118, 185, 224);
+    font-size: 80px;
+}
+.textmainset2
+{
+    color: violet;
+    font-size: 60px;
+}
+.textmainset3
+{
+    color: rgb(191, 238, 130);
+    font-size: 40px;
+}
+.textmainset4
+{
+    color: rgb(252, 167, 118);
+    font-size: 90px;
+}
+.textmainset5
+{
+    color: rgb(238, 130, 130);
+    font-size: 40px;
+}
+.detailoutside
+{
+    width: 100%;
+    height: 33.33%;
+
+}
+.detailsimg1
+{
+    margin-left: 2%;
+    height: 100%;
+    width: 20%;
+    float: left;
+    display: inline-block;
+    border: black 3px solid;
+
+}
+.detailstext1
+{
+    color: black;
+    font-family: cursive;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+.detailsimg1:hover
+{
+    border: white 3px solid;
+}
+.detailsimg2
+{
+    margin-right: 2%;
+    height: 100%;
+    width: 20%;
+    float: right;
+    display: inline-block;
+    border: black 3px solid;
+
+}
+.detailstext2
+{
+    color: black;
+    font-family: cursive;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+.detailsimg2:hover
+{
+    border: white 3px solid;
+}

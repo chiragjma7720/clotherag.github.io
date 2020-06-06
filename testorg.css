@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+  }
+.logo1{
+    height: 60px;
+    width: 120px;
+    float: left;
+    cursor: pointer;
+}
+.h11{
+    color: rgb(39, 17, 39);
+    margin: 400px;
+    margin-top: 10px;
+    font-size: 30px;
+    font-family: cursive;
+    margin-bottom: 10px;
+}
+.list_head
+{
+    position: sticky;
+    top: 0;
+    background-color: rgb(33, 71, 196);
+    background-repeat: none;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    word-spacing: 80px;
+    color: white;
+
+}
+.list_head  a{
+    text-decoration: none;
+    color: white;
+
+}
+.list_head a:hover 
+{
+    background-color: white;
+    color: rgb(8, 8, 112);
+    cursor: pointer;
+}
+.list_head a
+{
+    display: inline-block;
+    font-size: 25px;
+    padding: 15px;
+    position: sticky;
+    cursor: pointer;
+
+}
+
+
+.slide button{
+    background-position: center;
+    display: inline-block;
+    font-size: 45px;
+    padding: 20px 40px;
+    color: white;
+    cursor: pointer;
+    margin: 5px 35px;
+    width: 25%;
+    font-family: cursive;
+}
+
+.mainImage
+{
+    
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 400px;
+    
+}

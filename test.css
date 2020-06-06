@@ -1,0 +1,112 @@
+#lb 
+{
+    color: rgb(245, 245, 245);
+    background-color: rgb(13, 13, 146);
+    padding: 15px 20px;
+    text-align: center;
+    float: right;
+    box-shadow: 5px 7px 10px #9c9797;
+
+
+}
+#sb
+{
+    color: rgb(8, 8, 112);
+    background-color: rgb(219, 215, 215);
+    padding: 15px 20px;
+    text-align: center;
+    float: right;
+    box-shadow: 5px 7px 10px #9c9797;
+
+}
+
+
+.sepratecontainer
+{
+    width: 25%;
+    height: 50%;
+    border: rgb(8, 8, 112) 3px solid;
+    align-items: center;
+    display: inline-block;
+    margin-left: 6%;
+    text-align: center;
+    padding-bottom: 10px;
+    margin-top: 3%;
+
+
+}
+.img
+{
+    width: 70%;
+    height: 70%;
+    display: inline-block;
+    margin-top: 6%;
+    margin-left: 6%;
+    margin-right: 6%;
+    border: white 3px solid;
+
+
+    
+}
+.sepratecontainer:hover .img
+{
+    border: rgb(0, 0, 0) 3px solid;
+
+}
+.sepratecontainer:hover
+{
+    border-color: white;
+}
+.itemtext
+{
+    text-align: center;
+    line-height: 2px;
+    font-size: 20px;
+}
+.choiceoutercontainer
+{
+    width: 90%;
+    height: 30%;
+    background-color: white;
+    margin-left: 5%;
+}
+.choiceinnercontainer
+{
+    width: 21%;
+    height: 90%;
+    display: inline-block;
+    margin: 1.55%;
+    border: rgb(8, 8, 112) 3px solid;
+    padding-left: 2.4%;
+    padding-top: 1.9%;
+
+}
+.choiceimg
+{
+    width: 90%;
+    height: 90%;
+}
+.choiceinnercontainer:hover
+{
+    border: white 3px solid;
+
+}
+.choiceinnercontainer:hover .choiceimg
+{
+    border: rgb(0, 0, 0) 4px solid;
+
+}
+.productheadcontainer
+{
+    width: 100%;
+    height: 5%;
+    text-align: center;
+}
+.producthead
+{
+    color: rgb(8, 8, 112);
+    font-family: cursive;
+    box-shadow: darkblue;
+    font-size: 40px;
+
+}
